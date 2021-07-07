@@ -1,5 +1,8 @@
 # Kedro TF Image
-This package consists of Kedro pipelines for preprocessing images for TensorFlow. I use it mostly for [CNN based Dermatology workflows.](https://skinhelpdesk.com)
++This package consists of [Kedro pipelines](https://kedro.readthedocs.io/en/stable/kedro.pipeline.html) for preprocessing images for TensorFlow. I use it mostly for [CNN based Dermatology workflows.](https://skinhelpdesk.com)
+ 
+ * The **download** pipeline downloads online images defined in a csv file for multilabel classification. The labels are added to the filename. The csv format is:
+
 
 * The **download** pipeline downloads online images defined in a csv file for multilabel classification. The labels are added to the filename. The csv format is:
 ```
